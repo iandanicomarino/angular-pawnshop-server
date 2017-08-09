@@ -1,0 +1,27 @@
+{
+  "name": "angular-pawnshop-server",
+  "version": "1.0.0",
+  "description": "Server for serving email and sms",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iandanicomarino/angular-pawnshop-server.git"
+  },
+  "author": "Ian Danico Marino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iandanicomarino/angular-pawnshop-server/issues"
+  },
+  "homepage": "https://github.com/iandanicomarino/angular-pawnshop-server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "nexmo": "^2.0.2",
+    "sendgrid": "^5.2.0"
+  }
+}
